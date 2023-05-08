@@ -33,6 +33,7 @@ public class Expense {
 	@NotBlank(message="Vendor Name is required!")
 	private String vendor;
 	@NotNull
+	@NotBlank(message="Amount is required!")
 	@DecimalMin(value="0.01", message="Amount must be greater than 0!")
 	private double amount;
 	@NotNull

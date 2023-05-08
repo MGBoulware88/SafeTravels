@@ -43,7 +43,7 @@
 		<br />
 		<!-- I'd rather put this on a differnet page, but the wireframe had it on index -->
 		<div class="container card bg-dark text-light col-6 d-flex flex-column justify-content-center gap-3 align-content-center p-5 margin-2">
-			<h1 class="text-primary text-center">New Burger</h1>
+			<h1 class="text-primary text-center">New Expense</h1>
 		
 			<form:form action="/expenses/create" method="POST" modelAttribute="expense">
 				<div class="p-2 d-flex flex-column bg-dark text-light justify-content-start gap-1">
